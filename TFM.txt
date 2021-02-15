@@ -1,0 +1,5 @@
+This is my TFM document
+
+Introduction
+In this section the main purpose of the final thesis has been introduced. The robot is a Universal Robot (10RE).
+We have to think a control structure to solve a RPKs industrial problem.
