@@ -1,0 +1,22 @@
+Referencia: 2GV.EMA.21KAU
+-------------------------------------------------------------------------------------------------------------------------------------------
+github: mcentenotelleria@gmail.com
+psw: kiraia_07
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+hardware_setup.launch -> te carga el planificador de trayectorias y todos los paquetes hw
+hardware_setup_remote_ctrl.launch -> lanzas con el pc del ordenador. Del de abajo de la pantalla. Tiene con tiempo real. 
+app_binpicking.launch -> la aplicación
+
+
+1)roslanch app_binpicking hardware_setup_remote_ctrol.launch
+2)roslanch app_binpicking app_binpicking.launch
+- rqt_graph para ver los circulares. Cuadrados topics.
+	-move_group el planificador. De la libreria move-it.Dentro del moveit hay algoritmos de optimización,
+	-topic de tf. Todos los nodos llamas a esto. 
+	-/ur_hardware_interface nodo para cargar controladores...
+	
+-ver video rtt en youtube
+
+
+-Dar internet al pc laboratorio desde configuraciones 
